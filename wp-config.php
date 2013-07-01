@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '^sP8coiVWeDqho3b3I6SK|-j2r2d!BEhK>*#0n8I i_4Jt1e-OcMdly}|q&Pt|YD');
-define('SECURE_AUTH_KEY',  'DUlA?6Ut$9|1kM2<_hDG>%^);viYB0sW.2?cYUI`!ClzW|DaCT8hmKd`2?zLMQ2-');
-define('LOGGED_IN_KEY',    '^]2ne>(]]:s|d1:F*.aKJ{[UvvptnRdE)5)/+!.p,-E:?w_]RRW[w6%7-CmHIQsQ');
-define('NONCE_KEY',        ')H_]BJ-|M6W9Im$w6+vV3O(#RLqFV`+l(tsRJ:&Yg#+0p{l<6q,x|W-P(R{Q_8!z');
-define('AUTH_SALT',        'pP?;my=+;X t36?vq{MESnw||zd.=|I60E?A|s;dzkDl|&4N!t$:|ct<_X6]=Nb/');
-define('SECURE_AUTH_SALT', '@A)XfK U)r^kJN+vc!b^rcSC_Bq}>|txqJ0d:lG*X@n$4PQEd2&?M1#]Mn7@?i[^');
-define('LOGGED_IN_SALT',   's,*7I.H{|4S;c_XFsy|7l>fH^oTXoLPR`e-pc=r~.lqO*fd07pM|5:9`8=rb5LB=');
-define('NONCE_SALT',       'cP=6oI_*HgHwzD=^@`m+tR!u;MLHOD9.0=N4Pq8Uj 18c;v%S|EI{-C*U|!`sS!5');
+define('AUTH_KEY',         'hvqG76aq+zP]-GfnahPrqDk+M*1yZ0E)ci6,}yl1bje/Z#IyM8%S.)NBCs#HF1^d');
+define('SECURE_AUTH_KEY',  '?]OX+|PCXJgbFlhT1O:?YWY&9-IFGjOl.9C8o+N#+ aT9gM-0P>JfPr%d-3o(y-U');
+define('LOGGED_IN_KEY',    ')G O7BI,Ne!!m-wQ/l-,|H`TT%sHs@r?elO75-ox?dcQ{~1!,n3J. m2]pB9[]R~');
+define('NONCE_KEY',        '&M_p}z=H[dq{ LZoYxf9q!+lPl#`mlQ-41vsA%;b@$RZB2tuY,u4}?%15+>ghtk/');
+define('AUTH_SALT',        'LI^cy($-@,v|9pJU(7t+Gs3FIwdj7+:K[PC?W-ow:;eJ+-9+j?A*-Jrwr`kO`pw3');
+define('SECURE_AUTH_SALT', 'XXlJzI7##d+)u=+%&@:tuN&)<QdKz;+KwYs. iNml9,v>WnR+GO^#|pD1fx`qEpA');
+define('LOGGED_IN_SALT',   'qQ3ULmIVU +N80IhO$fl:dE{-U{UiJk&,J.bM3y@wv5W&$G$2Kwo--J9:9UnF2.H');
+define('NONCE_SALT',       '?31ogO~@wt/8V5p&B9R)qd_Z+Q5k-^1.({vDP/;C+a|%|C>G`i(!N.:Z0+1o%Kv3');
 
 /**#@-*/
 
@@ -59,7 +59,7 @@ define('NONCE_SALT',       'cP=6oI_*HgHwzD=^@`m+tR!u;MLHOD9.0=N4Pq8Uj 18c;v%S|EI
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'exp_';
 
 /**
  * WordPress Localized Language, defaults to English.
