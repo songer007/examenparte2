@@ -1,2 +1,2 @@
-examenparte2 gerson bernal moreno
+examenparte2 gerson bernal
 ============
